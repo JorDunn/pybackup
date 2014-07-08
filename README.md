@@ -1,4 +1,10 @@
-dugong
-======
+## Dugong
 
-Dugong is a backup daemon primarily for websites, but can be used for any purpose.
+Dugong is a backup script primarily for websites, but can be used for any purpose.
+
+## Usage
+
+	cd /some/path/containing/websites
+	./dugong
+
+The directory will then contain all of the backups with the file format {folder}.{timestamp}.tar.xz
