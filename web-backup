@@ -17,11 +17,11 @@ def main():
     subdirs = os.listdir(cwd)
 
     for directory in subdirs:
-        if 'com' in directory and not '.bz2' in directory:
+        if 'com.' in directory and not '.bz2' in directory:
             create_bzip(''.join([cwd, '/', directory]))
-        elif 'net' in directory and not '.bz2' in directory:
+        elif 'net.' in directory and not '.bz2' in directory:
             create_bzip(''.join([cwd, '/', directory]))
-        elif 'org' in directory and not '.bz2' in directory:
+        elif 'org.' in directory and not '.bz2' in directory:
             create_bzip(''.join([cwd, '/', directory]))
 
 
